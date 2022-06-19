@@ -19,10 +19,10 @@ function Menu(props) {
 
     let menuList = menuObject.map((m) => <li key={m.id}>
         {" "}
-        <a href='#' key={m.id}>
+        <button key={m.id}>
             <i>{m.icon}</i>
             <span>{m.name}</span>
-        </a>
+        </button>
     </li>)
 
     return (
