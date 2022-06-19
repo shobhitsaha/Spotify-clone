@@ -25,11 +25,11 @@ function MainContainer() {
 
             <div className="menuList">
                 <ul>
-                    <li><a href="#">Popular</a></li>
-                    <li><a href="#">Albums</a></li>
-                    <li><a href="#">Songs</a></li>
-                    <li><a href="#">Fans</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><button>Popular</button></li>
+                    <li><button>Albums</button></li>
+                    <li><button>Songs</button></li>
+                    <li><button>Fans</button></li>
+                    <li><button>About</button></li>
                 </ul>
 
                 <p><i><FaUsers /></i>12.3M<span>Followers</span> </p>
