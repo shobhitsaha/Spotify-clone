@@ -23,11 +23,11 @@ function Banner() {
                         <p><i><FaHeadphones /></i> 11,184,1811 <span>Monthly Listeners</span></p>
                     </div>
                     <div className="right">
-                        <a href="#">Play</a>
-                        <a href="#">
+                        <button >Play</button>
+                        <button>
                             <i><FaCheck /></i>
                             Following
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
